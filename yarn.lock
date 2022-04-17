@@ -773,7 +773,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/common@npm:^8.0.0":
+"@nestjs/common@npm:^8.4.4":
   version: 8.4.4
   resolution: "@nestjs/common@npm:8.4.4"
   dependencies:
@@ -798,7 +798,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/core@npm:^8.0.0":
+"@nestjs/core@npm:^8.4.4":
   version: 8.4.4
   resolution: "@nestjs/core@npm:8.4.4"
   dependencies:
@@ -1180,14 +1180,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
-  version: 17.0.24
-  resolution: "@types/node@npm:17.0.24"
-  checksum: 9e7c4f863601b2430b4c2429a89935f22eba692956f5013c90a4c7fb0e1401ed8add8c4307453c5d6b8b985384500f8c3f644427ab88632640cc396159af479a
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^16.0.0":
+"@types/node@npm:*, @types/node@npm:^16.0.0":
   version: 16.11.27
   resolution: "@types/node@npm:16.11.27"
   checksum: 6ed0c8c4d29a549d0cfd607d19edf9a4668fbd39087701d923b4a04cd760564e47ad27f9403968cb9c11ee006f0ea6ab698b2491b4b2d2dec3f4a53d0fc22df7
@@ -1693,7 +1686,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ajv@npm:8.9.0":
+"ajv@npm:8.9.0, ajv@npm:^8.0.0":
   version: 8.9.0
   resolution: "ajv@npm:8.9.0"
   dependencies:
@@ -1714,18 +1707,6 @@ __metadata:
     json-schema-traverse: ^0.4.1
     uri-js: ^4.2.2
   checksum: 874972efe5c4202ab0a68379481fbd3d1b5d0a7bd6d3cc21d40d3536ebff3352a2a1fabb632d4fd2cc7fe4cbdcd5ed6782084c9bbf7f32a1536d18f9da5007d4
-  languageName: node
-  linkType: hard
-
-"ajv@npm:^8.0.0":
-  version: 8.11.0
-  resolution: "ajv@npm:8.11.0"
-  dependencies:
-    fast-deep-equal: ^3.1.1
-    json-schema-traverse: ^1.0.0
-    require-from-string: ^2.0.2
-    uri-js: ^4.2.2
-  checksum: 5e0ff226806763be73e93dd7805b634f6f5921e3e90ca04acdf8db81eed9d8d3f0d4c5f1213047f45ebbf8047ffe0c840fa1ef2ec42c3a644899f69aa72b5bef
   languageName: node
   linkType: hard
 
@@ -2073,8 +2054,8 @@ __metadata:
   resolution: "bs-webservice@workspace:."
   dependencies:
     "@nestjs/cli": ^8.0.0
-    "@nestjs/common": ^8.0.0
-    "@nestjs/core": ^8.0.0
+    "@nestjs/common": ^8.4.4
+    "@nestjs/core": ^8.4.4
     "@nestjs/platform-express": ^8.0.0
     "@nestjs/schematics": ^8.0.0
     "@nestjs/testing": ^8.0.0
@@ -3441,7 +3422,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:10.0.1":
+"fs-extra@npm:10.0.1, fs-extra@npm:^10.0.0":
   version: 10.0.1
   resolution: "fs-extra@npm:10.0.1"
   dependencies:
@@ -3449,17 +3430,6 @@ __metadata:
     jsonfile: ^6.0.1
     universalify: ^2.0.0
   checksum: c1faaa5eb9e1c5c7c7ff09f966e93922ecb068ae1b04801cfc983ef05fcc1f66bfbb8d8d0b745c910014c7a2e7317fb6cf3bfe7390450c1157e3cc1a218f221d
-  languageName: node
-  linkType: hard
-
-"fs-extra@npm:^10.0.0":
-  version: 10.1.0
-  resolution: "fs-extra@npm:10.1.0"
-  dependencies:
-    graceful-fs: ^4.2.0
-    jsonfile: ^6.0.1
-    universalify: ^2.0.0
-  checksum: dc94ab37096f813cc3ca12f0f1b5ad6744dfed9ed21e953d72530d103cea193c2f81584a39e9dee1bea36de5ee66805678c0dddc048e8af1427ac19c00fffc50
   languageName: node
   linkType: hard
 
@@ -6380,8 +6350,8 @@ __metadata:
   linkType: hard
 
 "superagent@npm:^7.1.0":
-  version: 7.1.1
-  resolution: "superagent@npm:7.1.1"
+  version: 7.1.2
+  resolution: "superagent@npm:7.1.2"
   dependencies:
     component-emitter: ^1.3.0
     cookiejar: ^2.1.3
@@ -6394,7 +6364,7 @@ __metadata:
     qs: ^6.10.1
     readable-stream: ^3.6.0
     semver: ^7.3.5
-  checksum: 8710b84cf538f0b3e467b2e9be5ac41a169fe49656769301e01128fc5532900f5e447b9fb740cad2171a36b13b6939cd0f495e7ab4e805043b5cb13fe3051766
+  checksum: cb807cad54008f992fc10ae83a006ede32a35e414c52b2e582d321b3c43861337b2f93ec8acd6203197b6cfc883e7f0ed7558b5f4e946ea649aba181d836a8d2
   languageName: node
   linkType: hard
 
