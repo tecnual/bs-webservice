@@ -4,6 +4,7 @@ import { AppService } from './app.service';
 import { DefaultResponse } from './models/responses/default.response.class';
 import { version } from '../package.json';
 import { AppModule } from './app.module';
+import { Status } from './models/status.class';
 
 describe('AppController', () => {
   let appController: AppController;
