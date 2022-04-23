@@ -16,7 +16,7 @@ export class AppController {
    */
   @Get()
   @ApiCustomDefaultResponse(Status)
-  @ApiOperation({ summary: 'Application status'})
+  @ApiOperation({ summary: 'Application status' })
   getStatus(): DefaultResponse<Status> {
     return new DefaultResponse<Status>(this.appService.getStatus());
   }
