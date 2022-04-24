@@ -2,6 +2,13 @@ import { applyDecorators, Type } from "@nestjs/common";
 import { ApiExtraModels, ApiOkResponse, getSchemaPath } from "@nestjs/swagger";
 import { DefaultResponse } from "../../models/responses/default.response.class";
 
+/**
+ * Default response decorator
+ * @param dataDto 
+ * @param description 
+ * @param isArray 
+ * @returns 
+ */
 export const ApiCustomDefaultResponse = <T extends Type<unknown>>(dataDto: T, description?, isArray?) =>
   applyDecorators(
     ApiExtraModels(DefaultResponse, dataDto),
