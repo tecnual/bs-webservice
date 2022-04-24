@@ -4,7 +4,9 @@ import { AppService } from './app.service';
 import { ApiCustomDefaultResponse } from './shared/decorators/api.custom-default.response';
 import { DefaultResponse } from './models/responses/default.response.class';
 import { Status } from './models/status.class';
-
+/**
+ * Main Application Controller
+ */
 @ApiTags('Home')
 @Controller()
 export class AppController {
@@ -12,7 +14,7 @@ export class AppController {
 
   /**
    * Application status
-   * @returns  DefaultResponse<Status>
+   * @returns  {DefaultResponse<Status>}
    */
   @Get()
   @ApiCustomDefaultResponse(Status)
